@@ -1,0 +1,5 @@
+1- variables: una variable es como una vaso vacio, donde lo que decidas cargar es el dato, puede ser agua, gaseosa, jugo, etc.
+string: es un tipo liquidos con lo que podemos llenar un vaso, en este caso es texto, como tu nombre, un mensaje o tu edad.
+funciones: las funciones es una forma de encerrar codigo(variables, datos, condicionales) para automatizar una tarea, siendo esta misma llamada para ser repetida.
+declaraciones if: esta es un función en donde podremos condicionar ciertas operaciones, en la que si es verdadero haremos una cosa, y si es falso otra.
+valores booleanos: son valores fijos, podria preguntarte si el vaso está vacío, este podria ser verdadero(true) o falso(false). con el podremos trabajar con las condicionales
