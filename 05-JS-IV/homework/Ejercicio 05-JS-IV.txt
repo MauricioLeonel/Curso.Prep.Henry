@@ -1,0 +1,6 @@
+objetos: es un conjunto de datos, donde cada dato esta reprensentado por su clave y su valor, a diferencias de 
+otros tipos de datos, este puede incluir funciones para que dicho dato cambie su comportamiento.
+propiedades: es una clave, con un dato que representa un estado en el objeto
+metodos: es una clave con una funcion, que representa una accion o un comportamiento en el objeto
+bucle for in: te permite recorrer un objeto con claves asociadas.
+notacion de puntos vs corchetes: tienen ambos la misma funcion, pero la diferencia viene que con corchetes.
