@@ -12,7 +12,7 @@ function deObjetoAmatriz(objeto){
   //Escribe tu código aquí
   matriz = [];
   for(clave in objeto){
-    matriz.push([clave,objeto[clave]])
+    matriz.push([clave,objeto[clave]]);
   }
 
   return matriz;
@@ -35,6 +35,7 @@ function numberOfCharacters(string) {
 
     obj[string[i]] = contador;
     contador = 0;
+
   }
   //console.log(obj)
   return obj;
@@ -46,16 +47,20 @@ function capToFront(s) {
   //al principio de la palabra.
   //Ejemplo: soyHENRY -> HENRYsoy
   //Escribe tu código aquí
-  var mayus='';
-  var minus='';
-  for(var i = 0; i < s.length;i++){
+
+  var mayus = '';
+  var minus = '';
+
+  for(var i = 0; i < s.length; i++){
     if(s[i] === s[i].toUpperCase()){
       mayus += s[i];
     }else{
-      minus += s[i];
+      minus += s[i]; 
     }
   }
-  return mayus + minus;
+
+  return mayus+minus;
+  
 }
 
 
