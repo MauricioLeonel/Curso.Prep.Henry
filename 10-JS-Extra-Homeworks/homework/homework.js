@@ -73,6 +73,7 @@ function asAmirror(str) {
   var nuevaCadena ='';
   var cadenasplit='';
   function reversion(cadena){
+    //recorro cadana
     for(var i = 0; i < cadena.length; i++){
       if(cadena[i] !== ' '){
         cadenasplit += cadena[i]; 
